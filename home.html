@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>QUIZ TEST</title>
+    <style>
+        /* .card-header{
+            background-color: #7e967d;
+        }
+        .card-body{
+            background-color: #5f9ea0;
+        } */
+       
+       
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <a class="navbar-brand fs-3 ms-3" href="/">QUIZ APP</a>    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#kavz" aria-controls="kavz" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="kavz">
+              <ul class="navbar-nav mx-auto"> 
+                <li class="nav-item">
+                  <a class="nav-link fs-3 mx-3" href="/index.html"><i class="fa-sharp fa-solid fa-house"></i>HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-3 mx-3 active" href="/home.html"><i class="fa-solid fa-book"></i>QUIZ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-3 mx-3" href="/score.html"><i class="fa-sharp fa-solid fa-marker"></i>SCORE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-danger" href="#"><i class="fa-solid fa-arrow-right"></i> LOGOUT</a>
+                  </li>
+              </ul>
+          </nav>
+    </div>
+    <div class="container">
+        <div class="card">
+          <div class="card-header">
+            <h1>Quiz</h1>
+          </div>
+
+        <div class="card-body">
+            <form>
+                <div>
+                    1. What country has the highest life expectancy?<br>
+                    <input type= "radio" name="question1 " value="India"> <label> India </label><br>
+                    <input type="radio"name="question1" value="Hong Kong" id="correct2"> <label>Hong Kong</label><br>
+                    <input type="radio"name="question1" value="America"> <label>America </label><br>
+                    <input type="radio"name="question1" value="Australia"> <label>Australia </label><br>
+                </div> 
+                <hr>
+                <div>
+                    2. Eritrea, which became the 182nd member of the UN in 1993, is in the continent of<br>
+                    <input type="radio"name="question2" value="Asia" > <label>Asia </label><br>
+                    <input type="radio"name="question2" value="Europe"> <label>Africa </label><br>
+                    <input type="radio"name="question2" value="Africa" id="correct3"> <label>Europe </label><br>
+                    <input type="radio"name="question2" value="Australia"> <label>Australia </label><br><hr>
+                </div>
+                <div>
+                    3. Garampani sanctuary is located at<br>
+                    <input type="radio"name="question3" value="Assam" id="correct1"> <label>Assam</label><br>
+                    <input type="radio"name="question3" value="Gujarat"> <label>Gujarat</label><br>
+                    <input type="radio"name="question3" value="Nagaland"> <label>Nagaland</label><br>
+                    <input type="radio"name="question3" value="sikkim"> <label>sikkim</label><br><hr>
+                </div>
+                <div>
+                    4. For which of the following disciplines is Nobel Prize awarded?<br>
+                    <input type="radio"name="question4" value="Physics and Chemistry"> <label>Physics and Chemistry</label><br>
+                    <input type="radio"name="question4" value="Physiology or Medicine"> <label>Physiology or Medicine</label><br>
+                    <input type="radio"name="question4" value="Literature, Peace and Economics"> <label>Literature, Peace and Economics</label><br>
+                    <input type="radio"name="question4" value="All of the above" id="correct4"> <label>All of the above</label><br><hr>
+                </div>
+                <div>
+                    5. Hitler party which came into power in 1933 is known as<br>
+                    <input type="radio"name="question5" value="Labour Party"> <label>Labour Party</label><br>
+                    <input type="radio"name="question5" value="Nazi Party" id="correct2"> <label>Nazi Party</label><br>
+                    <input type="radio"name="question5" value="Ku-Klux-Klan"> <label>Ku-Klux-Klan</label><br>
+                    <input type="radio"name="question5" value="Democratic Party" id="correct4"> <label>Democratic Party</label><br><hr>
+                </div>
+                <div>
+                    6. FFC stands for<br>
+                    <input type="radio"name="question6" value="Foreign Finance Corporation"> <label>Foreign Finance Corporation</label><br>
+                    <input type="radio"name="question6" value="Federation of Football Council"> <label>Federation of Football Council</label><br>
+                    <input type="radio"name="question6" value="Film Finance Corporation" id="correct3"> <label>Film Finance Corporation</label><br>
+                    <input type="radio"name="question6" value="None of the above"> <label>None of the above</label><br><hr>
+                </div>
+                <div>
+                    7. Fastest shorthand writer was<br>
+                    <input type="radio"name="question7" value= "J.R.D. Tata"> <label> J.R.D. Tata</label><br>
+                    <input type="radio"name="question7" value="J.M. Tagore" > <label>J.M. Tagore</label><br>
+                    <input type="radio"name="question7" value="Khudada Khan"> <label>Khudada Khan</label><br>
+                    <input type="radio"name="question7" value="Dr. G. D. Bist" id="correct4"> <label>Dr. G. D. Bist</label><br><hr>
+                </div>
+                <div>
+                    8. Golf player Vijay Singh belongs to which country?<br>
+                    <input type="radio"name="question8" value="USA"> <label>USA</label><br>
+                    <input type="radio"name="question8" value="Fiji" > <label>Fiji</label><br>
+                    <input type="radio"name="question8" value="India"> <label>India</label><br>
+                    <input type="radio"name="question8" value="UK" id="correct4"> <label>UK</label><br><hr>
+                </div>
+                <div>
+                    9. First Afghan War took place in<br>
+                    <input type="radio"name="question9" value="1839" id="correct1"> <label>1839</label><br>
+                    <input type="radio"name="question9" value="1838" > <label>1838</label><br>
+                    <input type="radio"name="question9" value="1837"> <label>1837</label><br>
+                    <input type="radio"name="question9" value="1836"> <label>1836</label><br><hr>
+                </div>
+                <div>
+                    10. Each year World Red Cross and Red Crescent Day is celebrated on<br>
+                    <input type="radio"name="question10" value="May 8"> <label>May 8</label><br>
+                    <input type="radio"name="question10" value="May 28" > <label>May 28</label><br>
+                    <input type="radio"name="question10" value="May 18" id="correct3"> <label>May 18</label><br>
+                    <input type="radio"name="question10" value="May 2"> <label>May 2</label><br><hr>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <a href="next.html" class="btn btn-primary">Next</a>
+
+                <!-- <a href="score.html" class="btn btn-primary" onclick="result()">Submit</a> -->
+            </form>
+        </div>
+           
+        </div>  
+    </div>
+
+</body>
+</html>

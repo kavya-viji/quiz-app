@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ead7d7;
+}
+.row
+{
+    background-color: transparent;
+    border-radius: 10px;    
+}
+.new{
+    border-radius: 10px;  
+    width: 50%;
+    margin-left: 20%;
+ 
+}  
+
